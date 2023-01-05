@@ -1,20 +1,19 @@
 import React from "react";
 import { IoBriefcaseSharp } from "react-icons/io5";
 
-export default function EduExperience() {
+export default function EduExperience({details, date, company}) {
   return (
     <div className="edu-ex-container">
       <div className="icons">
       <IoBriefcaseSharp className="react_icon" />
       </div>
       <div className="details">
-        <div className="header"><p>2018-present</p></div>
+        <div className="header"><p>{date}</p></div>
         <h3>
-          WEB DEV - <span>ENVATO</span>
+          Frontend Web Developer - <span>{company}</span>
         </h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-          adipisicing elit
+{details}
         </p>
       </div>
     </div>
