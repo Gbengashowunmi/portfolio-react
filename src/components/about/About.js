@@ -6,7 +6,7 @@ import Navigation from "../Navigation";
 import EduExperience from "./EduExperience";
 import Stat from "./Stat";
 import { motion } from "framer-motion";
-import AOS from 'aos';
+import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 
@@ -39,17 +39,28 @@ export default function About() {
             data-aos-once="false"
           >
             <h2>Personal imformation</h2>
-            <p className="about-me">I am a frontend developer and I so much love to code, it gives me joy. I'm open to opportunities to learn and apply my skills to solve problems
+            <p className="about-me">
+              I am a frontend developer and I so much love to code, it gives me
+              joy. I'm open to opportunities to learn and apply my skills to
+              solve problems
             </p>
-            <a href="tel:+2348135110104"><p className="contact"><BsFillTelephoneInboundFill/>:<span> 08135110104</span></p></a>
-            <a href="mailto:gbengashowunmi01@gmail.com"><p className="contact"><AiTwotoneMail/>: <span>gbengashowunmi01@gmail.com</span></p></a>
+            <a href="tel:+2348135110104">
+              <p className="contact">
+                <BsFillTelephoneInboundFill />:<span> 08135110104</span>
+              </p>
+            </a>
+            <a href="mailto:gbengashowunmi01@gmail.com">
+              <p className="contact">
+                <AiTwotoneMail />: <span>gbengashowunmi01@gmail.com</span>
+              </p>
+            </a>
             <a href="/images/gbenga_resume.pdf" download="Gbenga-Resume">
-            <button>
-              Download CV
-              <span className="arrow">
-                <BsCloudDownload className="arrow_icon" />
-              </span>
-            </button>
+              <button>
+                Download CV
+                <span className="arrow">
+                  <BsCloudDownload className="arrow_icon" />
+                </span>
+              </button>
             </a>
           </div>
           <div
@@ -90,9 +101,21 @@ export default function About() {
               data-aos-easing="ease-in-out"
               data-aos-once="false"
             >
-              <EduExperience details="Worked with a team comprising a UI/UX designer and a backend developer to build a blog website and also worked with a team n building a banking app." date="2022-present" company="Essential Niegria" />
-              <EduExperience date="January 2021 - present" details="Freelancer(Frontend web developer). created multiple page websites for onlie clients using html5, css3 and vanilla javascript" company="Upwork"/>
-              <EduExperience date="July 2021- present" details="Freelancer(Frontend web developer). created multiple page websites for onlie clients using html5, css3 and vanilla javascript" company="Fiverr" />
+              <EduExperience
+                details="Worked with a team comprising a UI/UX designer and a backend developer to build a blog website and also worked with a team n building a banking app."
+                date="2022-present"
+                company="Essential Niegria"
+              />
+              <EduExperience
+                date="January 2021 - present"
+                details="Freelancer(Frontend web developer). created multiple page websites for onlie clients using html5, css3 and vanilla javascript"
+                company="Upwork"
+              />
+              <EduExperience
+                date="July 2021- present"
+                details="Freelancer(Frontend web developer). created multiple page websites for onlie clients using html5, css3 and vanilla javascript"
+                company="Fiverr"
+              />
             </div>
             <div
               className="experience"
@@ -103,8 +126,16 @@ export default function About() {
               data-aos-easing="ease-in-out"
               data-aos-once="false"
             >
-              <EduExperience date="January 2022- present" details="internship" company="Alt School" />
-              <EduExperience date="July 2020-present" details="student" company="FreeCodeCamp"/>
+              <EduExperience
+                date="January 2022- present"
+                details="internship"
+                company="Alt School"
+              />
+              <EduExperience
+                date="July 2020-present"
+                details="student"
+                company="FreeCodeCamp"
+              />
             </div>
           </div>
         </div>
