@@ -33,6 +33,7 @@ function App() {
               --clr-secondary: #c2c4c5;
   --clr-grey: rgba(34, 33, 33, 0.178);
   --clr-primary-light: rgba(87, 83, 83, 0.178);
+  --clr-white-2:rgb(15, 1, 19);
             
 
             }
