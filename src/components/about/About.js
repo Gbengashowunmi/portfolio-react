@@ -28,7 +28,7 @@ export default function About() {
         <div className="info-statistics">
           <div
             className="info"
-            data-aos="fade-right"
+            data-aos="fade-up"
             data-aos-offset="200"
             data-aos-delay="50"
             data-aos-duration="1000"
@@ -36,12 +36,7 @@ export default function About() {
             data-aos-once="false"
           >
             <h2>Personal imformation</h2>
-            <p className="about-me">
-              lorem30 lorem30 jgju lorem30 lorem30 lorem30 lorem30 lorem30
-              lorem30 lorem30 lorem30 lorem30 lorem30 lorem30 lorem30 lorem30
-              lorem30 lorem30 lorem30 lorem30 lorem30 lorem30 lorem30 lorem30
-              lorem30 lorem30 lorem30 lorem30 lorem30 lorem30 lorem30 lorem30
-              lorem30 lorem30 lorem30 lorem30
+            <p className="about-me">I am a frontend developer and I so much love to code, it gives me joy. I'm open to opportunities to learn and apply my skills to solve problems
             </p>
             <button>
               Download CV
@@ -52,7 +47,7 @@ export default function About() {
           </div>
           <div
             className="statistics"
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-offset="200"
             data-aos-delay="50"
             data-aos-duration="1000"
@@ -81,7 +76,7 @@ export default function About() {
           <div className="ex-edu">
             <div
               className="education"
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-offset="80"
               data-aos-delay="50"
               data-aos-duration="1000"
@@ -94,7 +89,7 @@ export default function About() {
             </div>
             <div
               className="experience"
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-offset="80"
               data-aos-delay="50"
               data-aos-duration="1000"

@@ -33,26 +33,26 @@ export default function Portfolio() {
         </div>
 
         <div className="projects" 
-                      data-aos="zoom-in"
+                      data-aos="fade-up"
                       data-aos-offset="80"
                       data-aos-delay="50"
                       data-aos-duration="1500"
                       data-aos-easing="ease-in-out"
                       data-aos-once="false">
           <Project
-            link="//https://gbengashowunmi.github.io/my-banking-app/"
+            link="//gbengashowunmi.github.io/my-banking-app/"
             img="/images/bank-app.jpg"
           />
           <Project
-            link="//https://e-blog-next.vercel.app/"
+            link="//e-blog-next.vercel.app/"
             img="/images/e-blog-next.jpg"
           />
           <Project
-            link="//https://e-blog-news.vercel.app/"
+            link="//e-blog-news.vercel.app/"
             img="/images/e-blog-react.jpg"
           />
           <Project
-            link="//https://gbengashowunmi.github.io/guessing/"
+            link="//gbengashowunmi.github.io/guessing/"
             img="/images/guess.jpg"
           />
         </div>

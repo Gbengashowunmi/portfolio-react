@@ -19,7 +19,7 @@ export default function LandingPage() {
   >
     <main>
       <aside     
-    data-aos="fade-right"
+    data-aos="fade-up"
     data-aos-offset="200"
     data-aos-delay="50"
     data-aos-duration="1000"
@@ -30,7 +30,7 @@ export default function LandingPage() {
       </aside>
       <div className="description"
       
-      data-aos="fade-left"
+      data-aos="fade-up"
       data-aos-offset="200"
       data-aos-delay="50"
       data-aos-duration="1000"
