@@ -1,5 +1,9 @@
 import React from "react";
-import { BsCloudDownload, BsFillTelephoneInboundFill } from "react-icons/bs";
+import {
+  BsCloudDownload,
+  BsFillTelephoneInboundFill,
+  BsGithub,
+} from "react-icons/bs";
 import { AiTwotoneMail } from "react-icons/ai";
 
 import Navigation from "../Navigation";
@@ -44,16 +48,24 @@ export default function About() {
               joy. I'm open to opportunities to learn and apply my skills to
               solve problems
             </p>
+            <p>I'm delighted to answer any questions you have. Reach out to me on any of these platforms I have provided below.</p>
+            <div className="contacts">
             <a href="tel:+2348135110104">
               <p className="contact">
-                <BsFillTelephoneInboundFill />:<span> 08135110104</span>
+                <BsFillTelephoneInboundFill />
               </p>
             </a>
             <a href="mailto:gbengashowunmi01@gmail.com">
               <p className="contact">
-                <AiTwotoneMail />: <span>gbengashowunmi01@gmail.com</span>
+                <AiTwotoneMail />
               </p>
             </a>
+            <Link to="//github.com/Gbengashowunmi?tab=repositories">
+              <p className="contact">
+                <BsGithub />
+              </p>
+            </Link>
+            </div>
             <a href="/images/gbenga_resume.pdf" download="Gbenga-Resume">
               <button>
                 Download CV
