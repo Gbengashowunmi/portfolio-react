@@ -42,10 +42,8 @@ export default function LandingPage() {
         <h2 className="name"> i'm gbenga showunmi.</h2>
         <h2 className="job-title">Web developer</h2>
         <p>
-          I'm a Tunisian based web designer & front-end developer focused on
-          crafting clean & user-friendly experiences, I am passionate about
-          building excellent software that improves the lives of those around
-          me.
+        I am a Frontend web app developer. I have over 2 years experience working on Frontend web projects and  with libraries and frameworks like ReactJs,  NextJs, SASS, FramerMotion, Material UI, and redux.
+        I am very enthusiastic and tenacious about growth.  I obstinately endeavour to broaden the horizon of my knowledge. 
         </p>
 <Link to="/about">
         <button>

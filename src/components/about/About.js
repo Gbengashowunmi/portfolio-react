@@ -6,6 +6,7 @@ import Stat from "./Stat";
 import { motion } from "framer-motion";
 import AOS from 'aos';
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 AOS.init();
 
@@ -38,12 +39,14 @@ export default function About() {
             <h2>Personal imformation</h2>
             <p className="about-me">I am a frontend developer and I so much love to code, it gives me joy. I'm open to opportunities to learn and apply my skills to solve problems
             </p>
+            <a href="/images/gbenga_resume.pdf" download="Gbenga-Resume">
             <button>
               Download CV
               <span className="arrow">
                 <BsCloudDownload className="arrow_icon" />
               </span>
             </button>
+            </a>
           </div>
           <div
             className="statistics"
