@@ -54,6 +54,7 @@ main {
   grid-template-columns: 2fr 2.5fr 0.2fr;
   grid-column-gap: 4rem;
   position: relative;
+  transition: .7s;
 }
 
 /* ==================
@@ -145,6 +146,8 @@ aside img {
   right: 0;
   margin: auto;
   color: white;
+  transition: .7s;
+
 }
 .navigation {
   display: flex;
@@ -153,6 +156,8 @@ aside img {
   position: fixed;
   right: 2rem;
   top: 8rem;
+  transition: .7s;
+
 }
 
 ul > li {
