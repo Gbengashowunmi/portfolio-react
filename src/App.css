@@ -317,7 +317,6 @@ header h1 {
   transition: .5s;
   padding: 1rem 1rem;
   text-align: left;
-  background: var(--clr-primary-light);
   border-radius:0 0 18px 18px  ;
   color: white;
   word-spacing: 5px;
