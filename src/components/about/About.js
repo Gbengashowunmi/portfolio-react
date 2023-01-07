@@ -120,12 +120,12 @@ export default function About() {
               />
               <EduExperience
                 date="January 2021 - present"
-                details="Freelancer(Frontend web developer). created multiple page websites for onlie clients using html5, css3 and vanilla javascript"
+                details="Freelancer(Frontend web developer). created multiple page websites for online clients using HTML5, CSS3 and vanilla javascript"
                 company="Upwork"
               />
               <EduExperience
                 date="July 2021- present"
-                details="Freelancer(Frontend web developer). created multiple page websites for onlie clients using html5, css3 and vanilla javascript"
+                details="Freelancer(Frontend web developer). created multiple page websites for onlnie clients using HTML5, CSS3 and vanilla javascript"
                 company="Fiverr"
               />
             </div>

@@ -4,10 +4,9 @@ import "./App.css";
 import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
 import LandingPage from "./LandingPage";
-import {  IoMoon, IoSunny } from "react-icons/io5";
+import { IoMoon, IoSunny } from "react-icons/io5";
 
-
-function App() { 
+function App() {
   const [darkMode, setDarkMode] = useState(false);
   const toggleDarkMode = () => {
     console.log(darkMode);
@@ -25,23 +24,28 @@ function App() {
       </BrowserRouter>
 
       <div className="dark_mode" onClick={toggleDarkMode}>
-      {darkMode && (
-        <style>
-          {`
+        {darkMode && (
+          <style>
+            {`
             :root {
               --clr-primary: rgb(11, 0, 14);
               --clr-secondary: #c2c4c5;
   --clr-grey: rgba(34, 33, 33, 0.178);
+  --clr-grey-2:rgba(34, 33, 33, 0.178);
   --clr-primary-light: rgba(87, 83, 83, 0.178);
   --clr-white-2:rgb(15, 1, 19);
             
 
             }
           `}
-        </style>
-              )}
+          </style>
+        )}
 
-        {darkMode?<IoMoon className="react_icon" /> : <IoSunny className="react_icon"/>}
+        {darkMode ? (
+          <IoMoon className="react_icon" />
+        ) : (
+          <IoSunny className="react_icon" />
+        )}
       </div>
     </div>
   );
