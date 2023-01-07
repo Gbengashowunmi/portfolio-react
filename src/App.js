@@ -28,7 +28,7 @@ function App() {
           <style>
             {`
             :root {
-              --clr-primary: rgb(11, 0, 14);
+              
               --clr-secondary: #c2c4c5;
   --clr-grey: rgba(34, 33, 33, 0.178);
   --clr-grey-2:rgba(34, 33, 33, 0.178);
