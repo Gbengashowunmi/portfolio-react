@@ -361,6 +361,14 @@ object-fit: contain;
   transform: translate(-50%, -50%);
   text-align: center;
 }
+.tools{
+  /* margin: auto; */
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  color:black;
+  height: 30px;
+}
 
 @media (max-width: 983px) {
   .projects {
