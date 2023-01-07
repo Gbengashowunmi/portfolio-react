@@ -44,7 +44,11 @@
   }
 }
 
-/* ::::== LANDING PAGE ==:::: */
+/* 
+  ================
+    LANDING PAGE 
+  ================
+*/
 
 main {
   width: 100%;
@@ -76,7 +80,6 @@ main {
   cursor: pointer;
 }
 aside {
-  /* width: 45%; */
   margin: 4rem 2rem;
   border-radius: 2rem;
   box-shadow: 4px 4px 15px black;
@@ -91,7 +94,6 @@ aside img {
 .description {
   margin: auto;
   text-align: left;
-  /* border: 2px solid yellow; */
   color: var(--clr-white-2);
   transition: .5s;
 }
@@ -301,21 +303,24 @@ header h1 {
 
 .project {
   border: 1px solid var(--clr-primary);
-  height: fit-content;
+  min-height: 300px ;
+  /* height: fit-content; */
   border-radius: 20px;
   cursor: pointer;
   position: relative;
   transition: .5s;
+  background-color: var(--clr-primary-light);
 
 }
 
 .project .caption{
   transition: .5s;
-  padding: .5rem 1rem;
+  padding: 1rem 1rem;
   text-align: left;
-  background: var(--clr-primary);
+  background: var(--clr-primary-light);
   border-radius:0 0 18px 18px  ;
   color: white;
+  word-spacing: 5px;
 
 }
 .project  img{

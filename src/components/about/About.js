@@ -42,29 +42,35 @@ export default function About() {
             data-aos-easing="ease-in-out"
             data-aos-once="false"
           >
-            <h2>Personal imformation</h2>
+            <h2>About Me</h2>
             <p className="about-me">
-              I am a frontend developer and I so much love to code, it gives me
-              joy. I'm open to opportunities to learn and apply my skills to
-              solve problems
+              I am a Frontend developer with two years of hands-on experience,
+              efficiently coding websites and applications using modern HTML5,
+              CSS3, JavaScript, Reactjs, Nextjs Redux, Bootstrap, Material UI,
+              Nodejs, MongoDB. I'm passionate about building state-of-the-art,
+              easy to use, user-friendly websites and applications. I'm open to
+              opportunities to learn and apply my skills to solve problems
             </p>
-            <p>I'm delighted to answer any questions you have. Reach out to me on any of these platforms I have provided below.</p>
+            <p>
+              I'm delighted to answer any questions you have. Reach out to me on
+              any of these platforms I have provided below.
+            </p>
             <div className="contacts">
-            <a href="tel:+2348135110104">
-              <p className="contact">
-                <BsFillTelephoneInboundFill />
-              </p>
-            </a>
-            <a href="mailto:gbengashowunmi01@gmail.com">
-              <p className="contact">
-                <AiTwotoneMail />
-              </p>
-            </a>
-            <Link to="//github.com/Gbengashowunmi?tab=repositories">
-              <p className="contact">
-                <BsGithub />
-              </p>
-            </Link>
+              <a href="tel:+2348135110104">
+                <p className="contact">
+                  <BsFillTelephoneInboundFill />
+                </p>
+              </a>
+              <a href="mailto:gbengashowunmi01@gmail.com">
+                <p className="contact">
+                  <AiTwotoneMail />
+                </p>
+              </a>
+              <Link to="//github.com/Gbengashowunmi?tab=repositories">
+                <p className="contact">
+                  <BsGithub />
+                </p>
+              </Link>
             </div>
             <a href="/images/gbenga_resume.pdf" download="Gbenga-Resume">
               <button>

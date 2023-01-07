@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Project({img, link}) {
+export default function Project({img, link, title, description}) {
   return (
     <div className="project">
       <div className="overlay">
@@ -9,7 +9,7 @@ export default function Project({img, link}) {
        </Link>
         </div>
       <img src={img} alt="project" />
-      <div className="caption"> <h5>Bank App</h5><p> a website wher you can make financial transaction</p></div>
+      <div className="caption"> <h3>{title}</h3><p> {description}</p></div>
     </div>
   );
 }
